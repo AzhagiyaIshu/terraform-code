@@ -11,7 +11,7 @@ terraform {
 
 provider "aws" {
   region  = "ap-south-1"
-  profile = "ishu.terraform"
+  profile = "https://975050185499.signin.aws.amazon.com/console"
 }
 
 resource "aws_instance" "emicalculator_server_2" {
