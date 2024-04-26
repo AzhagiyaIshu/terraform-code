@@ -11,7 +11,8 @@ terraform {
 
 provider "aws" {
   region  = "ap-south-1"
-  profile = "https://975050185499.signin.aws.amazon.com/console"
+  profile = "default"
+  AWS_SHARED_CREDENTIALS_FILE = ["C:\Users\Azhagiya B\.aws\credentials"]
 }
 
 resource "aws_instance" "emicalculator_server_2" {
