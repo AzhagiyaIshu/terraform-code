@@ -11,7 +11,7 @@ terraform {
 
 provider "aws" {
   region  = "ap-south-1"
-  profile = "default"
+  profile = "ishu.terraform"
 }
 
 resource "aws_instance" "emicalculator_server_2" {
