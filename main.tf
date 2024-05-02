@@ -11,8 +11,8 @@ terraform {
 
 
 resource "aws_instance" "myinstance" {
-  ami           = "ami-090489735582f1561"
-  instance_type = "t2.micro"
+  ami           = var.ami_id
+  instance_type = var.instance_type
 
   tags = {
     Name = "emicalculator_2"
