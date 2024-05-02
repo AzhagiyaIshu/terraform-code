@@ -1,3 +1,4 @@
 output "instance_ami" {
-    value = aws_instance.ami
+    description = "Output of the terraform code"
+    value = instance_type
 }
