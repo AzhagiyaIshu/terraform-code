@@ -15,6 +15,6 @@ resource "aws_instance" "myinstance" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "emicalculator_2"
+    Name = "emicalculator"
   }
 }
