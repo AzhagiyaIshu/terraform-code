@@ -13,7 +13,7 @@ provider "aws" {
   region  = "ap-south-1"
 }
 
-resource "aws_instance" "emicalculator_server_2" {
+resource "aws_instance" "myinstance" {
   ami           = "ami-090489735582f1561"
   instance_type = "t2.micro"
 
