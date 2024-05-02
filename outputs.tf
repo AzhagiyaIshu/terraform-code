@@ -4,5 +4,5 @@ output "instance_type" {
 }
  output "instance_ami" {
     description = "AMI id of the instance"
-    value = aws_instance.myinstance.instance_ami
+    value = aws_instance.myinstance.ami
  }
